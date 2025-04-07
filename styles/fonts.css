@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Grotesk';
+    src: url('../fonts/grotesk/SignateGrotesk-Black.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoM';
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'RobotoL';
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+}

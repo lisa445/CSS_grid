@@ -1,0 +1,44 @@
+.hello_image{    
+    background-image: linear-gradient(#1f44ffff, #100259ff,#040138ff);
+    color: white;
+}
+
+.hello_image h1{
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Grotesk';
+    font-size: 90px;
+}
+
+.hello_image h5{
+    margin: 0;
+    font-weight: 500;
+    font-family: 'RobotoL';
+    font-size: 20px;
+}
+
+.task, .technology, .result{
+    background: #ffffff;
+    color:#0f1a63ff;
+    font-weight: 500;
+}
+
+.task p, .theory p{
+    margin: 0;
+}
+.theory{
+    background: #0f1a63ff;
+    color: #ffffff;
+}
+
+.task h1, .theory h1, .technology h1, .result h1{
+    margin:0;
+    font-family: 'Grotesk';
+    font-size: 40px;
+}
+
+.task ul li, .task p, .theory ul li, .theory p, .technology p,.technology ul li{
+    font-family: 'RobotoL';
+    font-size: 20px;
+}
+

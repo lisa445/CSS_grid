@@ -1,0 +1,20 @@
+.primary{
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    padding:10px 15px;
+    font-family: 'RobotoL';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button_icon{
+    width: 60px;
+    height:60px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 50%;
+    color: #0f1a63ff;
+}

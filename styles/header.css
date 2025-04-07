@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+.header h1{
+    margin: 0;
+    margin-right:50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Grotesk';
+    color: #0f1a63ff;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    height:70px;
+    width: 100%;
+    position:fixed;
+}
+
+.header nav a{
+    font-family: 'RobotoL';
+    margin-right:50px;
+    text-decoration: none;
+    color: #0f1a63ff;
+    
+}
+
+.header nav a:last-child{
+    margin-right:0px;
+}
+
+.header nav a:focus{
+    color:#0255b5ff;
+}
+
