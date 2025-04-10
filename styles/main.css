@@ -45,6 +45,33 @@
 
 /*Задание*/
 
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+}
+
+.text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+}
+
+.theory, .technology{
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.theory > div, .technology > div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 .task, .technology, .result{
     background: #ffffff;
     color:#0f1a63ff;

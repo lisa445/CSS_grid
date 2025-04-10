@@ -1,6 +1,11 @@
 .footer{
     background: #0f1a63ff;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .footer h1{
     margin: 0;
