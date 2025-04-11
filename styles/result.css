@@ -1,21 +1,130 @@
-.result{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+body{
+    margin:0;
+    padding:0;
 }
-
-.grid {
+.container {
+    width: 50%;
+    height: 700px;
     background: #0f1a63ff;
     padding:10px;
     display: grid;
-    grid-template-columns: repeat(3, 160px);
-    grid-template-rows: repeat(3, 160px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
-.grid > div{
-    height:150px;
-    width: 150px;
+.container > div{
     background: white;
+}
+
+div[class^='child']{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 3%;
+    column-gap: 3%;
+ 
+}
+
+.d1{
+    background: #f283b1ff;
+    grid-area: A;
+}
+
+.d2{
+    background:#fad9e4ff;
+    grid-area: B;
+}
+.d3{
+    background:#c43772ff;
+    grid-area: C;
+}
+.d4{
+    background: #fcf5ebff;
+    grid-area: D;
+}
+.d5{
+    background: #fac3d2ff;
+    grid-area: E;
+}
+.d6{
+    background: #f5cc98ff;
+    grid-area: F;
+}
+.d7{
+    background: #e8563cff;
+    grid-area: H;
+}
+.d8{
+    background: #cccce8ff;
+    grid-area: O;
+}
+.d9{
+    background: #595880ff;
+    grid-area: I;
+}
+
+.child_1{
+    grid-template-areas: 
+    "A B C"
+    "D E F"
+    "H O I";
+}
+
+.child_2{
+    grid-template-areas: 
+    "A A A"
+    "A A A"
+    "B . .";
+}
+
+.child_3{
+    grid-template-areas: 
+    "A A B"
+    ". . ."
+    ". . C";
+}
+
+.child_4{
+    grid-template-areas: 
+    "A A A"
+    "B C D"
+    "B C D";
+}
+
+.child_5{
+    grid-template-areas: 
+    "A B C"
+    "D E F"
+    "H . .";
+}
+
+
+.child_6{
+    grid-template-areas: 
+    ". . ."
+    "A A B"
+    "A A .";
+}
+
+.child_7{
+    grid-template-areas: 
+    "A A B"
+    "C C D"
+    "C C D";
+}
+
+.child_8{
+    grid-template-areas: 
+    "A B D"
+    "A B D"
+    "C C E";
+}
+
+.child_9{
+    grid-template-areas: 
+    "A A ."
+    "A A C"
+    ". B C";
 }

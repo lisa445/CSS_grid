@@ -7,7 +7,7 @@ body{
     cursor: pointer;
     font-weight: 500;
     font-family: 'Grotesk';
-    color: #0f1a63ff;
+    color: var(--main-color);;
 }
 .header{
     display:flex;
@@ -23,7 +23,7 @@ body{
     font-family: 'RobotoL';
     margin-right:50px;
     text-decoration: none;
-    color: #0f1a63ff;
+    color: var(--main-color);
     
 }
 
